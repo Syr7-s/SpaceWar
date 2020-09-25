@@ -61,8 +61,8 @@ class MP3 {
 
  class gameSelection extends javax.swing.JFrame {
 
-    public int numberOfGamePlay = 0;// oyunOynamaSayisi
-    public static int  numberOfGames= 0;//oynanma_sayisi
+    public int numberOfGamePlay = 0;
+    public static int  numberOfGames= 0;
     ImageIcon medalIcon = new ImageIcon(getClass().getResource("/images/medal.gif"));
 
     /**
@@ -481,9 +481,9 @@ class MP3 {
         screenTwo.add(levelTwo);
         screenTwo.setVisible(true);
     }
-    public gameScreen screenThree=new gameScreen("Space War Level III");
+
     public void gamePlayLevelThree(){
-   
+        gameScreen screenThree=new gameScreen("Space War Level III");
         screenThree.setResizable(false);
         screenThree.setFocusable(false);
         screenThree.setSize(800,600);

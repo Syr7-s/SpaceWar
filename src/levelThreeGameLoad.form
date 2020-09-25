@@ -24,17 +24,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="oyunSeviyeUcYukleme" alignment="0" pref="460" max="32767" attributes="0"/>
+          <Component id="gameLoadLevelThreePanel" alignment="0" pref="460" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="oyunSeviyeUcYukleme" alignment="0" pref="361" max="32767" attributes="0"/>
+          <Component id="gameLoadLevelThreePanel" alignment="0" pref="361" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="oyunSeviyeUcYukleme">
+    <Container class="javax.swing.JPanel" name="gameLoadLevelThreePanel">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="e0" green="ea" red="f0" type="rgb"/>

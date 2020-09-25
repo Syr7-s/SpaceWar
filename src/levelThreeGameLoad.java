@@ -30,7 +30,7 @@ public class levelThreeGameLoad extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        oyunSeviyeUcYukleme = new javax.swing.JPanel();
+        gameLoadLevelThreePanel = new javax.swing.JPanel();
         levelThreeGameLoadText = new javax.swing.JLabel();
         levelThreeGameLoadGif = new javax.swing.JLabel();
         levelThreeGameLoadBtn = new javax.swing.JLabel();
@@ -39,15 +39,15 @@ public class levelThreeGameLoad extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
-        oyunSeviyeUcYukleme.setBackground(new java.awt.Color(240, 234, 224));
-        oyunSeviyeUcYukleme.setLayout(null);
+        gameLoadLevelThreePanel.setBackground(new java.awt.Color(240, 234, 224));
+        gameLoadLevelThreePanel.setLayout(null);
 
         levelThreeGameLoadText.setFont(new java.awt.Font("Times New Roman", 0, 16)); // NOI18N
         levelThreeGameLoadText.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-submit-progress-48.png"))); // NOI18N
         levelThreeGameLoadText.setText("Level III load");
-        oyunSeviyeUcYukleme.add(levelThreeGameLoadText);
+        gameLoadLevelThreePanel.add(levelThreeGameLoadText);
         levelThreeGameLoadText.setBounds(130, 50, 210, 50);
-        oyunSeviyeUcYukleme.add(levelThreeGameLoadGif);
+        gameLoadLevelThreePanel.add(levelThreeGameLoadGif);
         levelThreeGameLoadGif.setBounds(170, 120, 170, 80);
 
         levelThreeGameLoadBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/installGameGreenBtn.png"))); // NOI18N
@@ -62,7 +62,7 @@ public class levelThreeGameLoad extends javax.swing.JFrame {
                 levelThreeGameLoadBtnMouseExited(evt);
             }
         });
-        oyunSeviyeUcYukleme.add(levelThreeGameLoadBtn);
+        gameLoadLevelThreePanel.add(levelThreeGameLoadBtn);
         levelThreeGameLoadBtn.setBounds(150, 220, 170, 70);
 
         levelThreeGameLoadExitLbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-close-window-24.png"))); // NOI18N
@@ -71,18 +71,18 @@ public class levelThreeGameLoad extends javax.swing.JFrame {
                 levelThreeGameLoadExitLblMouseClicked(evt);
             }
         });
-        oyunSeviyeUcYukleme.add(levelThreeGameLoadExitLbl);
+        gameLoadLevelThreePanel.add(levelThreeGameLoadExitLbl);
         levelThreeGameLoadExitLbl.setBounds(430, 10, 24, 20);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(oyunSeviyeUcYukleme, javax.swing.GroupLayout.DEFAULT_SIZE, 460, Short.MAX_VALUE)
+            .addComponent(gameLoadLevelThreePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 460, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(oyunSeviyeUcYukleme, javax.swing.GroupLayout.DEFAULT_SIZE, 361, Short.MAX_VALUE)
+            .addComponent(gameLoadLevelThreePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 361, Short.MAX_VALUE)
         );
 
         pack();
@@ -153,10 +153,10 @@ public class levelThreeGameLoad extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel gameLoadLevelThreePanel;
     private javax.swing.JLabel levelThreeGameLoadBtn;
     private javax.swing.JLabel levelThreeGameLoadExitLbl;
     private javax.swing.JLabel levelThreeGameLoadGif;
     private javax.swing.JLabel levelThreeGameLoadText;
-    private javax.swing.JPanel oyunSeviyeUcYukleme;
     // End of variables declaration//GEN-END:variables
 }
